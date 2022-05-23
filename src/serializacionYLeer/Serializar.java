@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package serializacion;
+package serializacionYLeer;
 
 import java.io.EOFException;
 import java.io.File;
@@ -122,9 +122,8 @@ public class Serializar  {
         
        escribirObjeto();
       
-       
        anadirBinario();
-       
+      
        leerObjeto();
        //cabeceras
        //cada vez que se crea un objet se crea una cabecera
